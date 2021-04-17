@@ -5,8 +5,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
-.idea
-.vscode
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -71,6 +69,7 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
+.env
 .env.test
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -103,10 +102,3 @@ dist
 
 # TernJS port file
 .tern-port
-
-# build directory
-build/
-
-#lockfiles
-yarn.lock
-
